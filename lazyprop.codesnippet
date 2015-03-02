@@ -3,28 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>lazyprop</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
-		<string>ClassInterfaceVariables</string>
-		<string>TopLevel</string>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Section#&gt;
-</string>
+	<string>if (!_&lt;#property#&gt;) {
+    _&lt;#property#&gt; = [[&lt;#property_class#&gt; alloc] init];
+    }
+return _&lt;#property#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6FD512C8-23CC-402C-86E7-8C4481C4D8C4</string>
+	<string>7BB62843-BE93-48A4-98A2-AD88CE075860</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Dividers and labels to organize your code into sections [objc]</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>#pragma Mark</string>
+	<string>Lazy Property Implementation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
