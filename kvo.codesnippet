@@ -9,17 +9,15 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[self willChangeValueForKey:@"&lt;#ivar#&gt;"];
-[&lt;#ivar#&gt; autorelease];
-&lt;#ivar#&gt; = [&lt;#newValue#&gt; retain];
-[self didChangeValueForKey:@"&lt;#ivar#&gt;"];
-</string>
+	<string>[self willChangeValueForKey:@"&lt;#property#&gt;"];
+ _&lt;#property#&gt; = &lt;#newValue#&gt;;
+[self didChangeValueForKey:@"&lt;#property#&gt;"];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>ED5CBC21-A815-4A52-A8D5-DE533A98555F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Use when overriding @synthesized property setter methods [objc]</string>
+	<string>Use when overriding property setter methods [objc]</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>KVO Setter</string>
 	<key>IDECodeSnippetUserSnippet</key>
