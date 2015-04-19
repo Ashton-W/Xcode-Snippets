@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debugQuickLookObject</string>
+	<string>propertyJSONTransformer</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (id)debugQuickLookObject
-{
-    return nil;
-}</string>
+	<string>+ (NSValueTransformer *)&lt;#property#&gt;JSONTransformer</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>29D853E7-7249-4CBD-9888-82821EB7D032</string>
+	<string>0E9706F9-02F9-41CD-A157-5CD5D89376C0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Quick Look method for your custom class types so that object variables of those types can also be rendered visually in the Quick Look popover</string>
+	<string>method signature for defining JSONTransformer for a specific property in Mantle</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug Quick Look</string>
+	<string>Mantle property JSONTransformer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

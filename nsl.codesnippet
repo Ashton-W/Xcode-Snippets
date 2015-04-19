@@ -3,24 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debugQuickLookObject</string>
+	<string>NSL</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (id)debugQuickLookObject
-{
-    return nil;
-}</string>
+	<string>NSLocalizedString(&lt;#key#&gt;, &lt;#comment#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>29D853E7-7249-4CBD-9888-82821EB7D032</string>
+	<string>D76F7108-AA28-47ED-B094-FF6BDF8D70CF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Quick Look method for your custom class types so that object variables of those types can also be rendered visually in the Quick Look popover</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug Quick Look</string>
+	<string>NSLocalizedString</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

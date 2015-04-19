@@ -3,24 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debugQuickLookObject</string>
+	<string>validateProperty</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (id)debugQuickLookObject
-{
-    return nil;
-}</string>
+	<string>- (BOOL)validate&lt;#Property#&gt;:(id *)value error:(NSError * __autoreleasing *)error</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>29D853E7-7249-4CBD-9888-82821EB7D032</string>
+	<string>5DC3675F-4CB8-4D33-A930-6623EAD324A1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Quick Look method for your custom class types so that object variables of those types can also be rendered visually in the Quick Look popover</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug Quick Look</string>
+	<string>Key-Value Validation property method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
