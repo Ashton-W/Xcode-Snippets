@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>propertyJSONTransformer</string>
+	<string>propr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (NSValueTransformer *)&lt;#property#&gt;JSONTransformer</string>
+	<string>@property (nonatomic, strong, readonly) &lt;#Class#&gt; *&lt;#property#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0E9706F9-02F9-41CD-A157-5CD5D89376C0</string>
+	<string>EB2D5247-6473-4D52-A364-CCF418BE33BD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>method signature for defining JSONTransformer for a specific property in Mantle</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mantle property JSONTransformer</string>
+	<string>Property readonly</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -10,13 +10,11 @@
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic) &lt;#UIView#&gt; *&lt;#name#&gt;;</string>
+	<string>@property (nonatomic) &lt;#Class#&gt; *&lt;#property#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A5340E34-BA6F-4CDE-B65D-CBFB4AA8DCEB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Class Property</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Property</string>
 	<key>IDECodeSnippetUserSnippet</key>

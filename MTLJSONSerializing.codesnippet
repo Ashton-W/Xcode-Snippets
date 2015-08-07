@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init</string>
+	<string>mantleMTLJSONSerializing</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self = [super init];
-if (self) {
-    &lt;#initializations#&gt;
-}
+	<string>#pragma mark - MTLJSONSerializing
 
-return self;</string>
++ (NSDictionary *)JSONKeyPathsByPropertyKey
+{
+    return @{
+             &lt;#property to json key#&gt;
+             };
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DCE3ACD4-9057-4B8A-93C0-5E1928335A78</string>
+	<string>B6C32373-90BA-4F85-802D-E9FDFB7749C3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Designated incantation for your designated initializers [objc]</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init</string>
+	<string>Mantle MTLJSONSerializing impl</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

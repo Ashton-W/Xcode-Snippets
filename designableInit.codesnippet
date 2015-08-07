@@ -3,26 +3,44 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init</string>
+	<string>designableInit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self = [super init];
-if (self) {
-    &lt;#initializations#&gt;
+	<string>- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self configure];
+    }
+    
+    return self;
 }
 
-return self;</string>
+- (instancetype)initWithCoder:(NSCoder *)decoder
+{
+    self = [super initWithCoder:decoder];
+    if (self) {
+        [self configure];
+    }
+    
+    return self;
+}
+
+- (void)configure
+{
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DCE3ACD4-9057-4B8A-93C0-5E1928335A78</string>
+	<string>2222F53D-0724-40F7-8DF2-FD9D3D339CFC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Designated incantation for your designated initializers [objc]</string>
+	<string>Correct initialisation for designable views</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init</string>
+	<string>Designable View Initialisation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

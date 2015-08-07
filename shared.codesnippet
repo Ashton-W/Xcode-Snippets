@@ -9,15 +9,15 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (instancetype)shared&lt;#name#&gt;
+	<string>+ (instancetype)sharedInstance
 {
-    static &lt;#class#&gt; *_shared&lt;#name#&gt; = nil;
+    static &lt;#class#&gt; *_sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&amp;onceToken, ^{
-        _shared&lt;#name#&gt; = &lt;#initializer#&gt;;
+        _sharedInstance = [[self alloc] init];
     });
     
-    return _shared&lt;#name#&gt;;
+    return _sharedInstance;
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>

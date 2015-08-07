@@ -3,26 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>init</string>
+	<string>ayelem</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self = [super init];
-if (self) {
-    &lt;#initializations#&gt;
-}
-
-return self;</string>
+	<string>@property (nonatomic, strong) NSArray *accessibilityElements;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DCE3ACD4-9057-4B8A-93C0-5E1928335A78</string>
+	<string>39A3724C-550E-4476-ACA4-CAE5A3657337</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Designated incantation for your designated initializers [objc]</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init</string>
+	<string>accessibility elements</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
