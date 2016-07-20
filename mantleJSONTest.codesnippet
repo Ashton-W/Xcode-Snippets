@@ -3,21 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>const</string>
+	<string>mantleJSONTest</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSString *const k&lt;#Constant#&gt; = @"&lt;#ConstantString#&gt;";</string>
+	<string>- (void)testMTLJSONSerializing
+{
+    id JSON = @{
+        
+    };
+
+    NSError *error;
+    &lt;#Model#&gt; *object = [MTLJSONAdapter modelOfClass:[&lt;#Model#&gt; class] fromJSONDictionary:JSON error:&amp;error];
+
+    XCTAssertNil(error);
+    XCTAssertNotNil(object);
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9DAC0072-1414-45DB-B319-4F56FE628C36</string>
+	<string>42A0DA0B-7411-4000-8A96-50B69146E206</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>[objc]</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Constant String</string>
+	<string>Mantle MTLJSONSerializing Unit Test</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

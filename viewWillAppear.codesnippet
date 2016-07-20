@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>const</string>
+	<string>viewWillAppear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSString *const k&lt;#Constant#&gt; = @"&lt;#ConstantString#&gt;";</string>
+	<string>- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9DAC0072-1414-45DB-B319-4F56FE628C36</string>
+	<string>BD8D5ADC-1377-49DF-918A-D611C7DED7E0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>[objc]</string>
+	<string>viewWillAppear implementation calling super</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Constant String</string>
+	<string>viewWillAppear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

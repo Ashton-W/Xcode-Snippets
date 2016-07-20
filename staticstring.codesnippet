@@ -12,7 +12,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString * const &lt;#Constant#&gt; = @"&lt;#ConstantString#&gt;";</string>
+	<string>static NSString *const &lt;#Constant#&gt; = @"&lt;#ConstantString#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7D50B157-FFFE-4439-B06A-809AC9ABF95A</string>
 	<key>IDECodeSnippetLanguage</key>

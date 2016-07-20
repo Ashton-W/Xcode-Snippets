@@ -9,13 +9,13 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSArray *accessibilityElements;</string>
+	<string>@property (nonatomic, copy) NSArray *accessibilityElements;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>39A3724C-550E-4476-ACA4-CAE5A3657337</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>accessibility elements</string>
+	<string>Accessibility Elements</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
